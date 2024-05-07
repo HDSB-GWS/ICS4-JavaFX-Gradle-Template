@@ -4,16 +4,16 @@
 	"version": "2.0.0",
 	"tasks": [
 	  {
-		"label": "Run libGDX",
+		"label": "Run Gradle Project",
 		"type": "shell",
-		"command": "./gradlew desktop:run",
+		"command": "./gradlew run",
 		"windows": {
-		  "command": ".\\gradlew desktop:run"
+		  "command": ".\\gradlew run"
 		},
 		"group": "test",
 		"presentation": {
 		  "reveal": "always",
-		  "panel": "dedicated"
+		  "panel": "new"
 		}
 	  }
 	]
