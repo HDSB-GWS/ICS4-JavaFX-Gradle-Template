@@ -10,7 +10,7 @@
 		"windows": {
 		  "command": ".\\gradlew run"
 		},
-		"group": "test",
+		"group": "build",
 		"presentation": {
 		  "reveal": "always",
 		  "panel": "new"
